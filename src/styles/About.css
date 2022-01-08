@@ -1,0 +1,22 @@
+.mainAbout{
+    background-color: #070640;
+}
+.headings{
+    color: white;
+    font-weight: bolder;
+    font-size: 65px;
+    padding-top: 50px;
+}
+.renderView{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (min-width:250px) and (max-width:500px) {
+ .headings{
+     color: white;
+     font-weight: bold;
+     font-size: 30px;
+     text-align: center;
+ }   
+}

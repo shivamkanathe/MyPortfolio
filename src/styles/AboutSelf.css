@@ -1,0 +1,30 @@
+.aboutSelf{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.heads{
+    font-size: 60px;
+    font-weight: bold;
+}
+.paras{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.imgSection{
+    text-align: start;
+}
+.mainImage{
+width: 100%;
+}
+
+@media (min-width:250px) and (max-width:500px) {
+    .heads{
+        padding-top: 10px;
+        font-size: 30px;
+        font-weight: 600px;
+    }
+    .paras{
+        padding-top: 30px;
+    }
+}
