@@ -1,7 +1,6 @@
 import React,{useState,useEffect,useRef} from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "../../styles/CustomNavbar.css";
-import Link from 'react-scroll';
 
 function CustomNavbar() {
   const [navBackground, setNavBackground] = useState(false)

@@ -1,11 +1,10 @@
 import Button from "@restart/ui/esm/Button";
-import React,{useState,useEffect} from "react";
+import React,{useState} from "react";
 import { Col, Form, Row } from "react-bootstrap";
 import "../styles/ContactPage.css";
 import location from "../Images/location.svg";
 import call from "../Images/call.png";
 import emailImage from "../Images/email.svg";
-import db from "../firebase/firebase";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loader from "react-loader-spinner";
