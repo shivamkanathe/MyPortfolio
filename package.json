@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "homepage": "https://shivamkanathe.github.io/MyPortfolio",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
