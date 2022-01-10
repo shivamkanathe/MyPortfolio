@@ -89,7 +89,7 @@ function Portfolio() {
         {
             "id":13,
             "image":null,
-            "name":"Saloon app with Flutter",
+            "name":"Saloon app with Flutter", 
             "path":null,
         }
     ];

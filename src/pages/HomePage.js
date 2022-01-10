@@ -1,4 +1,4 @@
-import React,{useLayoutEffect} from "react";
+import React,{useEffect, useLayoutEffect} from "react";
 import { Col, Row } from "react-bootstrap";
 import "../styles/Home.css";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -10,6 +10,10 @@ import ContactPage from "./ContactPage";
 import ScrollAnimation from "react-animate-on-scroll";
 
 function HomePage() {
+
+  useEffect(() => {
+      window.scrollTo({ top:0,left:0, behavior:"smooth"});
+  }, [])
 
   useLayoutEffect(() => {
     window.addEventListener('scroll',onscroll)

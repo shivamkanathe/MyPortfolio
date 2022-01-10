@@ -1,9 +1,14 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Col, Row } from 'react-bootstrap';
 import '../styles/AllProject.css'
 import noImage from "../Images/noImage.png";
 
 const AllProjects = (props) => {
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
+
     console.log("this is all project page here",props.location.state);
     return (
         <div id="allProjects" style={{backgroundColor:"#090726"}}>
