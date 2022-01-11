@@ -1,0 +1,153 @@
+.main{
+    background-image: url("../Images/background.jpg");
+    height: 100vh;
+}
+.intro{
+    padding-top: 50px;
+}
+.detailContainers{
+    margin-top: 250px;
+}
+.detailContainers h1{
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.detailContainers h3{
+    color: white;
+    font-size: 30px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    font-family: serif;
+}
+
+.linkedin{
+    border:solid blue;
+    border-radius: 8px;
+    border-width: 1px !important;
+    height: 60px;
+    border-style: inset;
+    width: 60px;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    cursor: pointer;
+}
+.github{
+    margin-left: 20px;
+    border:solid orangered;
+    border-radius: 8px;
+    border-width: 1px !important;
+    height: 60px;
+    border-style: inset;
+    width: 60px;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: .3s;
+}
+
+.imageSize{
+    height:90vh;
+}
+
+
+/* responsive section */
+
+@media (min-width:120px) and (max-width:299px) {
+    .detailContainers{
+        margin-top: 90px;
+    }
+    .detailContainers h1{
+        font-size: 50px;
+    }
+    .imageSize{
+        height: 250px;
+        max-height: auto;
+    }
+    .userImage{
+        align-items: center !important;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }    
+}
+
+
+@media (min-width:300px) and (max-width:500px) {
+    .detailContainers{
+        margin-top: 90px;
+    }
+    .detailContainers h1{
+        font-size: 50px;
+    }
+    .imageSize{
+        height: 280px;
+        max-height: auto;
+    }
+    .userImage{
+        align-items: center !important;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }    
+}
+
+@media (min-width:520px) and (max-width:800px) {
+    .detailContainers{
+        margin-top: 50px;
+    }
+    .detailContainers h1{
+        font-size: 50px;
+    }
+    .userImage{
+        align-items: center !important;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 0px !important;
+    }
+    .imageSize{
+        height: 350px;
+        margin-top: 20px;
+    }
+    .intro{
+        padding-bottom: 10px;
+    }
+}
+
+
+@media (min-width:810px) and (max-width:1050px) {
+    .detailContainers{
+        margin-top: 100px;
+    }
+ 
+    .userImage{
+        align-items: center !important;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 0px !important;
+    }
+    .imageSize{
+        height: 400px;
+        margin-top: 20px;
+    }
+    .intro{
+        padding-bottom: 10px;
+    }
+}
+
+@media ( min-width:1060px) and (max-width:1465px) {
+    .imageSize{
+        height: 550px;
+    }
+}
+

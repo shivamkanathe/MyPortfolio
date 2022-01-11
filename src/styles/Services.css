@@ -1,0 +1,30 @@
+.serviceImage{
+    height: 350px;
+    transition: transform .2s;
+}
+.serviceContainer{
+    height: 350;
+    text-align: center;
+}
+.serviceRow{
+    padding-top: 50px;
+}
+.serviceName{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.serviceImage:hover{
+transform: scale(1.1);
+}
+
+@media (min-width:250px) and (max-width:500px) {
+    .serviceImage{
+        width: 100%;
+    }
+}
+
+@media (min-width:520px) and (max-width:800px) {
+    .serviceImage{
+        width: 100%;
+    }
+}
