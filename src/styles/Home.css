@@ -83,13 +83,13 @@
 
 @media (min-width:300px) and (max-width:500px) {
     .detailContainers{
-        margin-top: 90px;
+        margin-top: 50px;
     }
     .detailContainers h1{
         font-size: 40px;
     }
     .imageSize{
-        height: 190px;
+        height: 250px;
         max-height: auto;
     }
     .userImage{
