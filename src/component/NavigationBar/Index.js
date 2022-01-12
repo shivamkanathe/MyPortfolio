@@ -21,7 +21,7 @@ function CustomNavbar() {
 
   return (
     <div className="mainNav">
-      <Navbar collapseOnSelect style={{'boxShadow': (navBackground ? '0px 2px 2px  rgba(68, 88, 144, 0.1)': ''),backgroundColor:navBackground ?"#090726":"transparent" }}  expand="lg" variant="dark"  className="justify-content-center" fixed="top">
+      <Navbar collapseOnSelect style={{'boxShadow': (navBackground ? '0px 2px 2px  rgba(68, 88, 144, 0.1)': ''),backgroundColor:navBackground ?"#090726":"#0c0b50" }}  expand="lg" variant="dark"  className="justify-content-center" fixed="top">
         <Container className="navContainer">
           <Navbar.Brand href="/" ><span className="brandColor">SHI</span>VAM   <span className="brandColor">KANA</span>THE</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle" />

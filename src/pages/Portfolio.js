@@ -102,7 +102,7 @@ function Portfolio() {
                     <Row style={{textAlign:"center",alignItems:"center"}}>
                     {
                         portfolioList.slice(0,6).map((item)=>(
-                            <Col lg={4} md={6} sm={12} className="portCol">
+                            <Col lg={4} md={6} sm={12} xs={6} className="portCol">
                                 <div className = "portContainer">
                                 <img src={item.image} alt={item.name} className="portImage"  />
                                 <p className="portPara"><a href={item.path} target="_blank" rel = "noopener noreferrer"   style={{textDecoration:"none",color:"white"}}>{item.name}</a></p>
